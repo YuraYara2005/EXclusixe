@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import ps5Image from '../assets/images/PS5.png'; // Update paths
 import womanInHatImage from '../assets/images/WomaninHat.png';
 import speakerImage from '../assets/images/SpeakerJbl.png';
-import Gucci from '../assets/images/gucciPerfumes.png';
+import Gucci from '../assets/images/GucciPerfumes.png';
 
 const GridItems = () => {
   return (
