@@ -5,7 +5,7 @@ import Computer from '../../assets/images/Category-Computer.svg';
 import Camera from '../../assets/images/Category-Camera.svg';
 import SmartWatch from '../../assets/images/Category-SmartWatch.svg';
 import HeadPhone from '../../assets/images/Category-Headphone.svg';
-import GamePad from '../../assets/images/Category-GamePad.svg';
+import GamePad from '../../assets/images/Category-Gamepad.svg';
 
 const Categories = () => {
   return (
