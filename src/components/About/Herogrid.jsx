@@ -1,6 +1,6 @@
 import React from 'react'
 import './HeroGrid.css'
-import Rightimage from '../../assets/images/Portrait.Png'
+import Rightimage from '../../assets/images/Portrait.png'
 
 const Herogrid = () => {
   return (
