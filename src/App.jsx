@@ -5,7 +5,7 @@ import About from './About.jsx';
 import SignUp from './SignUp';
 import Contact from './Contact';
 import Login from './components/Login';
-import Profile from './components/Profile';
+import Profile from './components/profile';
 import WishList from './Wishlist'
 import Cart from './Cart'
 import CheckOut from './components/CheckOut.jsx';
