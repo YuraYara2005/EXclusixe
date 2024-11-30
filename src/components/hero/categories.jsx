@@ -1,11 +1,11 @@
 import React from 'react';
 import './categories.css';
-import Phone from '../../assets/images/category-CellPhone.svg';
-import Computer from '../../assets/images/category-Computer.svg';
-import Camera from '../../assets/images/category-Camera.svg';
-import SmartWatch from '../../assets/images/category-SmartWatch.svg';
-import HeadPhone from '../../assets/images/category-HeadPhone.svg';
-import GamePad from '../../assets/images/category-GamePad.svg';
+import Phone from '../../assets/images/Category-CellPhone.svg';
+import Computer from '../../assets/images/Category-Computer.svg';
+import Camera from '../../assets/images/Category-Camera.svg';
+import SmartWatch from '../../assets/images/Category-SmartWatch.svg';
+import HeadPhone from '../../assets/images/Category-HeadPhone.svg';
+import GamePad from '../../assets/images/Category-GamePad.svg';
 
 const Categories = () => {
   return (
