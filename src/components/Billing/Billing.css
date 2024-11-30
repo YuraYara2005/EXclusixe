@@ -1,0 +1,9 @@
+.form-control, .form-check-input {
+    box-shadow: none;
+  }
+  
+  .button-submit {
+    background-color: #343a40;
+    color: white;
+  }
+  

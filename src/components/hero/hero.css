@@ -1,0 +1,25 @@
+.Hero{
+    display: grid;
+    grid-template-columns: 20% 60%;
+    column-gap: 40px;
+}
+button {
+    font-family: poppins;
+    font-weight: 400;
+    display: block;
+    background-color: white;
+    border :none;
+    text-align: left;
+}
+
+.left-grid{
+    border-right: 1px solid rgba(0, 0, 0, 1);
+}
+@media (max-width: 768px){
+    .Hero{
+        grid-template-columns: 100%;
+    }
+    .left-grid{
+        border: none;
+    }
+}

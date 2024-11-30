@@ -1,0 +1,62 @@
+.wishlist-container {
+    padding: 20px;
+  }
+  
+  .card {
+    transition: transform 0.2s ease-in-out;
+    height: 100%; /* Make card height flexible */
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-image-wrapper {
+    position: relative;
+    height: 150px; /* Reduced image height */
+    background-color: #f0f0f0;
+  }
+  
+  .product-image-wrapper img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card-body {
+    text-align: left;
+    padding: 10px; /* Reduced padding for smaller cards */
+  }
+  
+  .card-title {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #777;
+    font-size: 12px; /* Reduced font size */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.3s;
+  }
+  
+  .product-image-wrapper:hover .overlay {
+    opacity: 1;
+  }
+  
+  .btn-sm {
+    font-size: 12px;
+  }
+  

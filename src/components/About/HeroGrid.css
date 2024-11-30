@@ -1,0 +1,33 @@
+.hero-Grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px; 
+    margin-top: 20px; 
+    overflow: hidden;
+}
+.hero-Grid p{
+    color: var(--black) !important;
+}
+.image-portrait img{
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px){
+    .hero-Grid{
+        grid-template-columns: 1fr;
+        margin: 0 !important;
+    }
+    .left-side{
+        margin-left: 1rem;
+        grid-row: 2;
+    }
+    .left-side p{
+        font-size: 0.8rem;
+        margin: 0 !important;
+    }
+    .image-portrait img{
+        width: 100%;
+        height: auto;
+    }
+}

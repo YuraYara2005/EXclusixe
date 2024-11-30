@@ -1,0 +1,16 @@
+.summary {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .card-text {
+      font-size: 0.9rem;
+    }
+  
+    .summary h4, .summary h5 {
+      font-size: 1rem;
+    }
+  }
+  

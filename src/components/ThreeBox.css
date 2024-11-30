@@ -1,0 +1,40 @@
+.three-box-container {
+    text-align: center;
+  }
+  
+  .box-card {
+    background-color: #fff;
+    border: 0px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+  }
+  
+  .box-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon-circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: var(--black);
+    border: 10px solid var(--Neutral200);
+    color: var(--white);
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  p {
+    color: #666;
+  }
+  

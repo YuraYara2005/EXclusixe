@@ -1,0 +1,40 @@
+.product-image-wrapper {
+    position: relative;
+  }
+  
+  .icont {
+    color: #f44336;
+    font-size: 18px;
+    background-color: var(--white);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .product-image-wrapper:hover .overlay {
+    opacity: 1;
+  }
+  
+  button.btn-primary {
+    width: 100%;
+  }
+  .add-btn{
+    background-color: var(--black);
+    color: var(--white);
+  }
+  
+  
+  .cardi-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  

@@ -1,0 +1,67 @@
+.Grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    gap: 20px; 
+    margin-top: 20px; 
+  }
+  
+  .cardi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    text-align: center; 
+  }
+  
+  .cardi img {
+    width: 100px; 
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .cardi h4 {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--black); 
+  }
+
+  .cardi:hover {
+    background-color:var(--red500);
+    cursor: pointer;
+  }
+
+  .cardi:hover .icon {
+    filter: invert(100%);
+  }
+  .cardi:hover h4{
+    color: var(--white);
+  }
+
+  .box {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between the box and the h3 text */
+  }
+  
+  .box-span {
+    display: inline-block;
+    width: 20px; /* Adjust the width of the box */
+    height: 40px; /* Adjust the height of the box */
+    background-color: var(--red500); 
+    border-radius: 4px; /* Optional: Rounded corners */
+  }
+  
+  .box h3 {
+    margin: 0;
+    color: var(--red500); 
+    font-size: 1.5rem; /* Adjust font size if needed */
+    font-weight: bold; /* Make the text bold */
+  }
+  
+
+  @media (max-width: 768px){
+    .Grid{
+        grid-template-columns: 100%;
+    }
+}
+  

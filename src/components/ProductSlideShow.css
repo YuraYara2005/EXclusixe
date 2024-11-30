@@ -1,0 +1,25 @@
+.product-slideshow {
+    padding: 20px;
+    background-color: #f9f9f9; /* Optional: Background for the slideshow */
+  }
+  
+  .product-card {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card h3 {
+    font-size: 1rem;
+    color: #333;
+  }
+  

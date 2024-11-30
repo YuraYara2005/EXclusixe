@@ -1,0 +1,59 @@
+/* Custom Styles */
+.contact-info p {
+    font-size: 16px;
+    color: var(--black);
+  }
+  
+  .contact-info h4 {
+    color: white;
+  }
+
+  .contact-info hr{
+    background-color: var(--black) !important;
+    color: var(--black) !important;
+  }
+
+  .contact-input{
+    color: var(--Neutral400);
+    background-color: var(--Neutral50);
+    border-radius: 1px !important;
+
+  }
+  .enhance-text{
+    color: var(--Green400);
+  }
+  .enhance-btn {
+    background-color: var(--Green600);
+    color: var(--white);
+    border: none;
+    border-radius: 1px ;
+    padding: 9px 28px;
+  }
+  
+  .contact-form textarea {
+    resize: none;
+    color: var(--Neutral400);
+    background-color: var(--Neutral50);
+    border-radius: 1px !important;
+  }
+  
+  .contact-form button:hover {
+    background-color: var(--red400) !important;
+  }
+
+  .contact-icon{
+    color: var(--white);
+    background-color: var(--red600);
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 2px;
+  }
+  .contact-submit-button{
+    background-color: var(--red600) !important;
+    color: var(--white);
+    float: right;
+    border: none;
+    border-radius: 1px ;
+    padding: 10px 30px;
+  }
+  

@@ -1,0 +1,13 @@
+.cardSS {
+    text-align: center;
+    border : 0;
+    color: var(--white);
+    cursor: pointer;
+}
+.cardSS:hover{
+    background-color: var(--red500);
+}
+.cardSS:hover .iconi{
+    color: var(--white);
+    filter: invert(100%);
+}
